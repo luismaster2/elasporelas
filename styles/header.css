@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vh 1%;
+    background: var(--cor-quatro);
+}
+
+.header__menuHamburguer__icon {
+    width: 50px;
+}
+
+.header__menuHamburguer-opened {
+    display: none;
+    
+}
+
+.active {
+    display: flex;
+}
+
+.header__menuHamburguer-opened__nav {
+    display: flex;
+    background-color: var(--cor-quatro);
+    position: absolute;
+    top: 9%;
+    left: 0;
+    width: auto;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 2px;
+    padding: 2% 1%;
+}
+
+.header__menuHamburguer-opened__nav__lista {
+    display: grid;
+    gap: 3vh;
+    align-items: center;
+    text-align: center;
+}
+
+.header__menuHamburguer-opened__nav__lista__item {
+    font-family: var(--fonte-um);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.header__menuHamburguer-opened__nav__lista__item__link {
+    text-decoration: none;
+    color: var(--cor-um);
+}
+
+.header__logoelasporelas__logo {
+    width: 150px;
+}
+
+.header__carrinho__icon {
+    width: 50px;
+}
+
+.header__menu {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__menuHamburguer {
+        display: none;
+    }
+    .header__menu {
+        display: flex;
+        justify-content: space-around;
+        gap: 8vw;
+    }
+    .header__menu__link {
+        text-decoration: none;
+        font-family: var(--fonte-um);
+        color: var(--cor-um);
+        font-size: 1.5em;
+    }
+    .header__menu__link:hover {
+        font-size: 1.8em;
+        text-decoration: underline;
+    }
+}

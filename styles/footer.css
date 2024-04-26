@@ -1,0 +1,169 @@
+.rodape {
+    background-color: var(--cor-quatro);
+    padding-top: 5vh;
+}
+
+.formaspag {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vh;
+    font-family: var(--fonte-um);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.formaspag-linha1 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2vh;
+    font-family: var(--fonte-um);
+    font-size: 1em;
+}
+
+.formaspag-linha2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+    font-family: var(--fonte-um);
+    font-size: 1em;
+}
+
+.formas__pag__pag {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.formas__pag__img {
+    width: 30px;
+}
+
+.referencia__texto {
+    font-family: var(--fonte-dois);
+    font-size: 1em;
+    padding: 1vh 0;
+}
+
+.formaspag-unicalinha {
+    display: none;
+}
+
+.formaspag-unicalinha-referencia {
+    display: none;
+}
+
+.referencia__img {
+    display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+    .formaspag-linha1, .formaspag-linha2 {
+        display: none;
+    }
+    
+    .formaspag-unicalinha {
+        display: grid;
+        justify-content: center;
+        margin-left: 2vw;
+        gap: 2vw;
+    }
+
+    .formaspag-unicalinha-referencia {
+        display: flex;
+        justify-content: center;
+    }
+
+    .formaspag {
+        display:flex;
+        justify-content:center;
+        padding-left: 4vw;
+        font-size: 2em;
+    }
+
+    .formas__pag__pag {
+        font-size: 1.5em;
+    }
+    .formas__pag__img {
+        width: 100px;
+    }
+
+    .referencia {
+        padding-right: 12%;
+        margin-right: 25%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .referencia__texto {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: 0;
+        
+    }
+
+    .referencia__img {
+        width: 350px;
+        height: 160px;
+    }
+
+    
+    
+}
+
+
+@media screen and (min-width: 1024px) {
+    .formaspag-linha1, .formaspag-linha2 {
+        display: none;
+    }
+
+    .formaspag-unicalinha {
+        display: flex;
+        margin-left: 5vw;
+        gap: 10vw;
+    }
+
+    .formaspag-unicalinha-referencia {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .formaspag {
+        display: flex;
+        justify-content: center;
+        padding-left: 5vw;
+        font-size: 3em;
+    }
+
+    .formas__pag__pag {
+        font-size: 2.5em;
+    }
+    .formas__pag__img {
+        width: 100px;
+    }
+
+    .referencia {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .referencia__texto {
+        font-size: 2em;
+        margin-top: 10vh;
+        padding-left: 10%;
+        padding-bottom: 12vh;
+        white-space: nowrap;
+    }
+
+
+    .referencia__img {
+        display: flex;
+        width: 350px;
+        height: 160px;
+        padding-left: 10%;
+    }
+}

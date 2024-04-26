@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elas Por Elas - By Eudora</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/logoEsmalte.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header__menuHamburguer">
+            <img class="header__menuHamburguer__icon" src="./icons/menu-hamburguer.svg" alt="Logo menu hamburguer" onclick="toggleMenu()">
+        </div>
+        <div class="header__menuHamburguer-opened"  id="menu">
+            <nav class="header__menuHamburguer-opened__nav">
+                <ul class="header__menuHamburguer-opened__nav__lista">
+                    <li class="header__menuHamburguer-opened__nav__lista__item">
+                        <a href="#" class="header__menuHamburguer-opened__nav__lista__item__link">Catálogo</a>
+                    </li>
+                    <li class="header__menuHamburguer-opened__nav__lista__item">
+                        <a href="#" class="header__menuHamburguer-opened__nav__lista__item__link">Seja um revendedor</a>
+                    </li>
+                    <li class="header__menuHamburguer-opened__nav__lista__item">
+                        <a href="#" class="header__menuHamburguer-opened__nav__lista__item__link">Quem somos?</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__logoelasporelas">
+            <img class="header__logoelasporelas__logo" src="./img/logoelasporelas.png" alt="Logo Elas por Elas">
+        </div>
+        <div class="header__menu">
+            <a href="#" class="header__menu__link">Catálogo</a>
+            <a href="#" class="header__menu__link">Seja um revendedor</a>
+            <a href="#" class="header__menu__link">Quem somos?</a>
+        </div>
+        <div class="header__carrinho">
+            <img class="header__carrinho__icon" src="./icons/carrinho.svg" alt="Logo carrinho">
+        </div>
+    </header>
+    <section class="categoria">
+        <h2 class="categoria__tipo">EM DESTAQUE</h2>
+    </section>
+
+    <section class="carrossel-section">
+        <div class="carrossel">
+            <div class="card">
+                <img src="./img/velvet.png" alt="Kit Hidratante + Desodorante corporal">
+                <div class="card-info">
+                    <h3>Hidratante Eudora + desodorante corporal</h3>
+                    <p>R$154,90</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/hidratante-eudora.png" alt="Hidratante corporal Eudora">
+                <div class="card-info">
+                    <h3>Hidratante Eudora Desodorante Corporal La Piel Multirreparação da Pele Tâmaras Egípcias 400ml</h3>
+                    <p>R$52,90</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/siage2.png" alt="Cronograma capilar">
+                <div class="card-info">
+                    <h3>Leave-In Pro Cronology Siage Eudora 100ml</h3>
+                    <p>R$67,99</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/siage1.png" alt="Kit Siage 4 produtos">
+                <div class="card-info">
+                    <h3>Eudora Kit Siàge Nutri Rosé (4 Produtos)</h3>
+                    <p>R199,00</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2 class="categoria__tipo">TOP MAIS VENDIDOS</h2>
+    </section>
+
+    <section class="mais-vendidos">
+        <div class="mais-vendidos__container">
+            <div class="mais-vendidos__container__card">
+                <div class="mais-vendidos__container__card__conteudo">
+                    <img src="./img/perfume01.png" alt="Eudora Eau de Parfum 75ml">
+                    <div class="card__texto">
+                        <h3 class="card__texto__nome">Eudora Eau De Parfum 75ml</h3>
+                        <a href="#" class="card__texto__link"><p class="card__texto__link__texto">R$ 219,90</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mais-vendidos__container__card">
+                <div class="mais-vendidos__container__card__conteudo">
+                    <img src="./img/perfume02.png" alt="Eudora Kiss Me Roxo Impulso Colônia 50 ml">
+                    <div class="card__texto">
+                        <h3 class="card__texto__nome">Eudora Kiss Me Roxo Impulso Colônia 50 ml</h3>
+                        <a href="#" class="card__texto__link"><p class="card__texto__link__texto">R$ 105,00</p></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h2 class="formaspag">Formas de pagamento</h2>
+        <div class="formaspag-linha1">
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/boleto.png">
+                <p>Boleto</p>
+            </div>
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/cartao.png">
+                <p>Cartão</p>
+            </div>
+        </div>    
+        <div class="formaspag-linha2">
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/pix.png">
+                <p>Pix</p>
+            </div>          
+        </div>
+        <div class="formaspag-unicalinha-referencia">
+        <div class="formaspag-unicalinha">
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/boleto.png">
+                <p>Boleto</p>
+            </div>
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/cartao.png">
+                <p>Cartão</p>
+            </div>
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/pix.png">
+                <p>Pix</p>
+            </div>        
+        </div>
+        <hr>
+        
+        </div>
+        <div class="referencia">
+            <img class="referencia__img" src="./img/logoelasporelas.png">
+            <h3 class="referencia__texto">Desenvolvido W. Luis</h3>
+           
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+
+
+
+</html>

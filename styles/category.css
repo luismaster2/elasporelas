@@ -1,0 +1,16 @@
+.categoria {
+    background: var(--cor-tres);
+    width: 45%;
+    text-align: center;
+    margin-left: 26%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding: 1em;
+    border-radius: 24px;
+}
+
+.categoria__tipo {
+    font-family: var(--fonte-um);
+    font-size: 1em;
+    font-weight: 500;
+}

@@ -1,0 +1,16 @@
+@import url(./styles/header.css);
+@import url(./styles/category.css);
+@import url(./styles/carrossel.css);
+@import url(./styles/mais-vendidos.css);
+@import url(./styles/footer.css);
+
+:root {
+    --cor-um: #eaf3ef; 
+    --cor-dois: #e081cc; 
+    --cor-tres: #da74cc; 
+    --cor-quatro: #da74cc; 
+    
+    --fonte-um: "Ubuntu", sans-serif; /*para titulos*/
+    --fonte-dois: "Open Sans", sans-serif; /*para textos*/
+}
+

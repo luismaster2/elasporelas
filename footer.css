@@ -1,0 +1,121 @@
+.rodape {
+    background-color: var(--cor-quatro);
+    padding-top: 5vh;
+}
+
+.formaspag {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vh;
+    font-family: var(--fonte-um);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.formaspag-linha1 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2vh;
+    font-family: var(--fonte-um);
+    font-size: 1em;
+}
+
+.formaspag-linha2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+    font-family: var(--fonte-um);
+    font-size: 1em;
+}
+
+.formas__pag__pag {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.formas__pag__img {
+    width: 30px;
+}
+
+.referencia__texto {
+    font-family: var(--fonte-dois);
+    font-size: 1em;
+}
+
+.formaspag-unicalinha {
+    display: none;
+}
+
+.formaspag-unicalinha-referencia {
+    display: none;
+}
+
+.referencia__img {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .formaspag-linha1, .formaspag-linha2 {
+        display: none;
+    }
+    
+    .formaspag-unicalinha {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 4vh;
+    }
+    .formaspag-unicalinha-referencia {
+        display: none;
+    }
+    .referencia__img {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .formaspag-linha1, .formaspag-linha2 {
+        display: none;
+    }
+
+    .formaspag-unicalinha {
+        display: grid;
+        margin-left: 5vw;
+        gap: 5vw;
+    }
+
+    .formaspag-unicalinha-referencia {
+        display: flex;
+    }
+
+    .formaspag {
+        display: flex;
+        justify-content: initial;
+        padding-left: 5vw;
+        font-size: 2em;
+    }
+
+    .formas__pag__pag {
+        font-size: 2em;
+    }
+    .formas__pag__img {
+        width: 100px;
+    }
+
+    .referencia {
+        padding-right: 12%;
+    }
+
+    .referencia__texto {
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .referencia__img {
+        display: flex;
+        width: 350px;
+        height: 160px;
+    }
+}
